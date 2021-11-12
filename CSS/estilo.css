@@ -1,0 +1,217 @@
+/* Referências de fontes externas */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind:wght@300&family=Permanent+Marker&family=Righteous&family=Zen+Antique&display=swap');
+
+/* Formatações Gerais */
+
+body {
+    background-color: #afafaf;
+    font-size: 16px; /*tamanho padrão*/
+    font-family: 'Hind', sans-serif; 
+    text-decoration: justify;
+
+}
+
+
+header h1 {
+    text-align: center;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+
+
+h2 {
+    padding-top: 5px;
+    margin-left: 15px;
+    text-decoration: underline;
+    font-weight: none;
+    color: #e2ee09;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    margin-left: 20px;
+    text-decoration: normal;
+}
+
+h5 {
+    text-align: center;
+    color: #fff;
+    padding: 0px;
+}
+
+section h6 {
+    margin-left: 20px;
+}
+
+section p {
+    margin: 15px;
+    text-align: justify;
+    font-size: 0.875em; /*o mesmo que 14px*/
+}
+
+section>div {
+    /* background-color: rgb(139, 139, 139); */
+    margin: 10px auto;
+    width: 380px;
+
+}
+
+
+aside ul {
+    padding:5px;
+}
+
+mark {
+    background-color: #09d7ee;
+}
+
+strong {
+    color: #09ee37;
+}
+
+em {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    color: blue
+}
+
+
+div p{
+    text-align: center;
+}
+
+
+/* Formatações Containers */
+
+    header {
+        background-color: #000;
+    }
+
+    footer {
+        text-align: center;
+        font-weight: bold;
+        background-color: #000;
+    }
+
+    section {
+        position: relative;
+        background-color: rgb(233, 233, 233);
+        margin: 5px;
+        padding: 5px 2px 5px 2px;
+    }
+
+/* Layout */
+
+    #area-cabecalho {
+        background-color: rgb(27, 29, 65);
+        padding: 15px;
+        text-align: center;
+    }
+
+
+    #area-menu {
+        padding: 10px;
+    }
+
+    #custom-medias {
+        margin: auto;
+    }
+
+
+/* FORMATACAO DE MENU */
+
+    #area-cabecalho a {
+        border: 1px solid #1a53f1;
+        margin: 15px;
+        padding: 5px;
+        text-decoration: none;
+        
+    }
+
+    #area-cabecalho a:hover {
+        color: #ebca10;
+        background-color:rgb(71, 69, 69);
+        /* text-decoration: none; */
+    }
+
+    #border-id {
+        display: flex;
+        flex-direction: row;
+        /* margin: 0 auto; */
+        padding:10px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+/* formatação de classes */
+
+.h2-centro {
+    text-align: center;
+}
+
+.imagens-icone {
+    width: 20px;
+    padding:2px 5px 2px 5px;
+}
+
+.img-hobbie-custom {
+    display:flex;
+    flex-direction: column;
+    background-color: #e2ee09;
+    border: 3px solid blue;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 330px;
+}
+
+
+.imagem-hobbie {
+    width: 100%;
+}
+
+.custom-videos {
+    
+    border: 7px outset red;
+    padding: 10px 20px 10px 10px;
+    border-radius: 7px;
+
+}
+
+.custom-audios {
+    margin: 0 auto;
+    border: 7px outset red;
+    padding: 10px 20px 10px 10px;
+}
+
+.custom-videos p {
+    font-weight: bold;
+}
+
+.custom-audios p {
+    font-weight: bold;
+}
+
+.hobbies-list ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
